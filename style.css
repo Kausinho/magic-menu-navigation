@@ -67,4 +67,15 @@ body{
 .navigation ul li.active a .icon{
     transform: translateY(-32px);
 }
+
+.navigation ul li a .text{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
 }
