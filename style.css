@@ -63,4 +63,8 @@ body{
     transition: 0.5s;
     color: var(--clr);
 }
+
+.navigation ul li.active a .icon{
+    transform: translateY(-32px);
+}
 }
